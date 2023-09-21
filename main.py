@@ -19,8 +19,6 @@ def hello_world():
       """
     return prefix_google + "Hello World"
 
-def hello_world():
-    return 'Hello World'
 
 # Run the application
 if __name__ == '__main__':
