@@ -1,10 +1,12 @@
 from flask import Flask, render_template, request
 import logging
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templat')
 
 # Configure logging
-logging.basicConfig(filename='app.log', level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
+
+
 
 def hello_world():
     prefix_google = """
