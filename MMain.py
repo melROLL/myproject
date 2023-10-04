@@ -33,7 +33,7 @@ def logger():
         logging.info(message)
 
         # Log to the browser
-        return f'<p>Logged: {message}</p>'
+ #       return f'<p>Logged: {message}</p>'
 
     return render_template('logger.html')
 
