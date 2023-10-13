@@ -1,3 +1,5 @@
+# TP1 and TP2 done
+
 # Lab TP1: Building and Deploying Your Python Web App with Flask, GitHub, Deta, and Google Analytics
 
 Welcome to an exciting lab session where you'll learn to create a Python web application, version your code with GitHub, deploy it with Deta, and track its usage using Google Analytics. By the end of this tutorial, you will have a fully functional web app and a deeper understanding of these essential development tools.
