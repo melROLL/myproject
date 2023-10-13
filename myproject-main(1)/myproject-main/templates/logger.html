@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logger Page</title>
+</head>
+<body>
+    <h1>Logger Page</h1>
+    <p>{{ log_message }}</p>
+    <p> Response message: {{ response_message }}</p>
+    </p>
+    <form method="POST">
+        <label for="log_message">Log Message:</label>
+        <input type="text" id="log_message" name="log_message">
+        <button type="submit">Submit</button>
+    </form>
+
+    <form method="POST">
+        <button name="action" value="Google" type="submit">Click me to send a GET Request to Google</button>
+    </form>
+
+    <form method="POST">
+        <button name="action" value="ganalytics" type="submit">Click me to send a GET Request to Google
+            Analytics</button>
+    </form>
+    <p id="user-count">Number of visitors: {{ user_count }}</p>
+    
+    <!-- Display logs from the server -->
+    <h2>Server Logs:</h2>
+    <p>
+        {{logs}}
+    </p>
+    <script>
+        console.log("{{logs}}");
+    </script>
+</body>
+</html>
+
